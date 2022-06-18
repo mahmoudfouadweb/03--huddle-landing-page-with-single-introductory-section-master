@@ -65,6 +65,51 @@ Medium: 11px
   box-sizing: border-box;
 }
 
+html {
+  background-color: rgb(103, 75, 175);
+  background-image: url(../images/bg-desktop.svg);
+  background-size: cover;
+  background-position: top;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
+  font-size: 62.5%;
+  color: #fff;
+}
+
+.nav-logo {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 3.2rem;
+  padding-top: 2.4rem;
+  padding-bottom: 4.8rem;
+}
+
+.container {
+  margin-left: 3.2rem;
+}
+
+.icons {
+  display: flex;
+}
+
+.icon {
+  color: #fff;
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+/*****************
+******************
+ HELPER CLASSES
+ *****************
+******************/
+
+.grid {
+  display: grid;
+}
+
+.grid-2--cols {
+  grid-template-columns: repeat(2, 1fr);
 }
