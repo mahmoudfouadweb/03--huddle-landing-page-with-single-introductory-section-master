@@ -142,7 +142,7 @@ body {
 
 .btn:hover {
   background-color: hsl(300, 69%, 71%);
-  color: #fff;
+  color: rgba(255, 255, 255, 0.872);
 }
 .icons {
   justify-content: flex-end;
